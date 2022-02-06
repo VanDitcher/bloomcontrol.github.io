@@ -94,7 +94,7 @@ button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
-.modal_container{
+.modal-container{
   background: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
@@ -108,7 +108,7 @@ button:hover {
   width: 100vw;
 }
 
-.modal_container.show{
+.modal-container.show{
   opacity:1;
   pointer-events: auto;
 }
