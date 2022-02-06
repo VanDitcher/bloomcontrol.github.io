@@ -106,11 +106,12 @@ button:hover {
   left: 0;
   height: 100vh;
   width: 100vw;
+  transition: opacity 0.3s ease;
 }
 
 .modal-container.show{
-  opacity:1;
   pointer-events: auto;
+  opacity:1;
 }
 
 .modal{
