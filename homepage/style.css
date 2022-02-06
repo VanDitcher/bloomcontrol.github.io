@@ -87,9 +87,9 @@ button{
   align-items: center;
   justify-content: center;
   position: fixed;
-  opacity: 0;
+  opacity: 1;
   pointer-events: none;
-  top: 0;
+  top: 10;
   left: 0;
   height: 100vh;
   width: 100vw;
@@ -97,7 +97,7 @@ button{
 
 .modal_container.show{
   opacity:1;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .modal{
