@@ -42,10 +42,9 @@ body{ font-family: Helvetica;
 
 }
 #contactus {
-  margin-top: 10px;
   margin-left: 60px;
   margin-right: 60px;
   color: white;
-  font-size: 28px;
+  font-size: 20px;
   float: left;
 }
