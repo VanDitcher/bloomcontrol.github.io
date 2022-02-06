@@ -95,8 +95,8 @@ button{
 }
 
 .modal_container.show{
-  pointer-events: auto;
   opacity:1;
+  pointer-events: auto;
 }
 
 .modal{
