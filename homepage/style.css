@@ -73,7 +73,7 @@ h1{
   height: 60vh;
 }
 
-open.button{
+button{
   background-color: #bae634;
   border: 0;
   border-radius: 5px;
@@ -86,7 +86,7 @@ open.button{
   align-items: center;
   justify-content: center;
   position: fixed;
-  opacity: 1;
+  opacity: 0;
   pointer-events: none;
   top: 0;
   left: 0;
