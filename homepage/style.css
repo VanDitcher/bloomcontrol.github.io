@@ -76,7 +76,7 @@ h1{
 button{
   background-color: #bae634;
   border: 0;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 2px 4px rbga(0, 0, 0, 0.2);
 }
 
