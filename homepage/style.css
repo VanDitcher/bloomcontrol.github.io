@@ -73,6 +73,13 @@ h1{
   height: 60vh;
 }
 
+open.button{
+  background-color: #bae634;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rbga(0, 0, 0, 0.2);
+}
+
 .modal-container{
   background: rgba(0, 0, 0, 0.3);
   display: flex;
