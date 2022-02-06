@@ -6,10 +6,11 @@ html{
     box-sizing: inherit;
 }
 body{
+    font-family: Helvetica;
     margin: 0;
     padding: 0;
-    background-color: #bae634;
-    color: #fff;
+    background-color: #afcc57;
+    color: white;
 }
 
 h1{
