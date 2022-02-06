@@ -7,7 +7,7 @@ body{ font-family: Helvetica;
 }
 
 #container {
-  width: 800px;
+  width: 1300px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
@@ -19,6 +19,7 @@ body{ font-family: Helvetica;
   margin-right: auto;
   text-align: center;
   white-space: nowrap;
+  margin-right: 40%;
 
 }
 
@@ -27,6 +28,8 @@ body{ font-family: Helvetica;
   color: #afcc57;
   text-align: center;
   font-size: 40px;
+  margin-bottom: 60px;
+  margin-right: 40%;
 }
 #footer {
   background-color: #afcc57;
