@@ -72,3 +72,41 @@ h1{
 #map{
   height: 60vh;
 }
+
+.modal-container{
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal-container.show{
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modal{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 30px 50px;
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.modal h1{
+  margin: 0;
+}
+
+.modal p{
+font-size: 14px;
+opacity: 0.7;
+}
