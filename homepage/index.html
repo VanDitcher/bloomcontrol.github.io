@@ -7,6 +7,26 @@
   <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <style>
+  .contentbutton{
+  border-radius: 6px;
+  padding: 32px 32px;
+  background-color: #afcc57;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  margin: 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+.contentbutton:hover {
+  background-color: #bae634;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 
   .contactbutton:hover {
   background-color: #bae634;
@@ -50,32 +70,7 @@
       <h1>Project Name</h1>
     </div>
     <div id="content">
-      
-      <button id="open">
-        Lake Map
-      </button>  
-
-      <div class ="modal-container"
-      id ="modal_container">
-        <div class ="modal">
-          <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Algae Distribution Heat Map</title>
-            <link rel="stylesheet" href="style.css">
-        </head>
-            <h1>Algae Distribution Heat Map</h1>
-            <div id = "map"></div>
-            <script src="script.js"></script>
-            <script
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjyFsxoXrAWF674HhnKXXP58RzB7MRM24&callback=initMap&libraries=&v=weekly"
-              async
-            ></script>
-        <button id="close">
-          Close
-        </button>
-      </div>
+      <a href="mappage/Map.html"><button class="contentbutton">Lake Map</button></a>  
     </div>
   </div>
 </div>
