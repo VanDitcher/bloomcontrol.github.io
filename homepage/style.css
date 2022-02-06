@@ -88,7 +88,7 @@ button{
   justify-content: center;
   position: fixed;
   opacity: 1;
-  pointer-events: none;
+  pointer-events: auto;
   top: 0;
   left: 0;
   height: 100vh;
