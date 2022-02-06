@@ -100,8 +100,8 @@ button:hover {
   align-items: center;
   justify-content: center;
   position: fixed;
-  opacity: 1;
-  pointer-events: all;
+  opacity: 0;
+  pointer-events: none;
   top: 0;
   left: 0;
   height: 100vh;
