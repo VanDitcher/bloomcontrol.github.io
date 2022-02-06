@@ -74,7 +74,7 @@ h1{
 }
 
 button{
-  background-color: #b5c575;
+  background-color: #bae634;
   border: 0;
   border-radius: 5px;
   box-shadow: 0 2px 4px rbga(0, 0, 0, 0.2);
@@ -101,7 +101,7 @@ button{
 }
 
 .modal{
-  background-color: #fff;
+  background-color: #9cb64f;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 30px 50px;
