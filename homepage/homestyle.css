@@ -1,0 +1,53 @@
+body{ font-family: Helvetica;
+  background-image: url("homebackground.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+
+#container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+#content {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  white-space: nowrap;
+  margin-right: 40%;
+
+}
+
+#header {
+
+  color: #afcc57;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+  margin-right: 40%;
+}
+#footer {
+  background-color: #afcc57;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:100%
+}
+#table, th{
+  width: 10px;
+  text-align: left;
+  padding-left: 0px;
+
+}
+#contactus {
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+  font-size: 20px;
+  float: left;
+}
