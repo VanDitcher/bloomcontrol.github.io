@@ -80,7 +80,7 @@ button{
   box-shadow: 0 2px 4px rbga(0, 0, 0, 0.2);
 }
 
-.modal-container{
+.modal_container{
   background: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
@@ -94,7 +94,7 @@ button{
   width: 100vw;
 }
 
-.modal-container.show{
+.modal_container.show{
   opacity:1;
   pointer-events: auto;
 }
